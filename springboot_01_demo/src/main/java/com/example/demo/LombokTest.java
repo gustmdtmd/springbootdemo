@@ -6,7 +6,7 @@ public class LombokTest {
 		MemDTO dto = new MemDTO();
 		dto.setName("홍길동");
 		dto.setAge(30);
-		dto.setLoc("서울");
+		dto.setLoc("서울"); 
 		
 		System.out.printf("%s %d %s\n", dto.getName(), dto.getAge(), dto.getLoc());
 		
